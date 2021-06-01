@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'https://alphabackend.herokuapp.com/api',
+  baseURL: 'https://alphabackend.herokuapp.com',
   withCredentials: false,
   headers: {
     'Content-Type': 'application/x-www-form-urlencoded',
