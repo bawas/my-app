@@ -56,7 +56,11 @@ const Login = () => {
                   },
                 ]}
               >
-                <Input label="Nombre de Usuario" placeholder="nombre" required />
+                <Input
+                  label="Correo electrónico"
+                  placeholder="email@example.com"
+                  required
+                />
               </Form.Item>
             </Col>
             <Col md={24}>
@@ -71,7 +75,7 @@ const Login = () => {
                   },
                 ]}
               >
-                <Input label="Contraseña" placeholder="contraseña" required />
+                <Input.Password label="Contraseña" placeholder="contraseña" required />
               </Form.Item>
             </Col>
             <Button htmlType="submit">Iniciar sesión</Button>
